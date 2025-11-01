@@ -38,8 +38,8 @@ Example output:
 
 Add these aliases to your `~/.zshrc`:
 ```bash
-   alias bat_sync_programs=`python $HOME/Bat-Tower/programs/sync_programs.py`
-   alias bat_sync_subfinder=`python $HOME/Bat-Tower/enum/subfinder.py`
-   alias bat_sync_crtsh=`python $HOME/Bat-Tower/enum/crtsh.py`
-   alias bat_enum_all=`python $HOME/Bat-Tower/enum/enum_all.py`
+   alias bat_sync_programs=`python3 $HOME/Bat-Tower/programs/sync_programs.py`
+   alias bat_sync_subfinder=`python3 $HOME/Bat-Tower/enum/subfinder.py`
+   alias bat_sync_crtsh=`python3 $HOME/Bat-Tower/enum/crtsh.py`
+   alias bat_enum_all=`python3 $HOME/Bat-Tower/enum/enum_all.py`
 ```
