@@ -1,0 +1,12 @@
+{
+    "program_name": "Roblox",
+    "scope": [
+        "rbx.com",
+        "guilded.gg",
+        "roblox.com",
+        "ra.roblox.com"
+    ],
+    "ooscope": [
+    ],
+    "url": "https://hackerone.com/roblox/policy_scopes"
+}

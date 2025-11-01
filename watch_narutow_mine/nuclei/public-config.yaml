@@ -1,0 +1,117 @@
+# Headers to include with all HTTP request
+header:
+  - 'X-BugBounty-Hacker: Hackerone'
+  - 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:108.0) Gecko/20100101 Firefox/108.0'
+
+# maximum number of templates executed in parallel
+concurrency: 25
+rate-limit: 100
+
+# Template Denylist
+exclude-tags: technologies,tech,ssl,dns
+severity: critical,high,medium,low
+exclude-templates:
+  - vulnerabilities/wordpress/wp-license-file.yaml
+  - vulnerabilities/wordpress/wordpress-rdf-user-enum.yaml
+  - vulnerabilities/generic/request-based-interaction.yaml
+  - vulnerabilities/wordpress/wordpress-user-enum.yaml
+  - vulnerabilities/wordpress/wordpress-xmlrpc-listmethods.yaml
+  - vulnerabilities/wordpress/wp-xmlrpc.yaml
+  - vulnerabilities/generic/cors-misconfig.yaml
+  - vulnerabilities/wordpress/wp-full-path-disclosure.yaml
+  - vulnerabilities/wordpress/wp-altair-listing.yaml
+  - vulnerabilities/wordpress/wordpress-tmm-db-migrate.yaml
+  - vulnerabilities/wordpress/wp-123contactform-plugin-listing.yaml
+  - vulnerabilities/wordpress/wp-iwp-client-listing.yaml
+  - vulnerabilities/wordpress/wordpress-updraftplus-pem-key.yaml
+  - vulnerabilities/wordpress/wordpress-elementor-plugin-listing.yaml
+  - vulnerabilities/wordpress/wp-enabled-registration.yaml
+  - vulnerabilities/wordpress/easy-media-gallery-pro-listing.yaml
+  - vulnerabilities/wordpress/wordpress-directory-listing.yaml
+  - vulnerabilities/wordpress/wordpress-woocommerce-listing.yaml
+  - vulnerabilities/wordpress/wp-sfwd-lms-listing.yaml
+  - vulnerabilities/wordpress/wordpress-git-config.yaml
+  - vulnerabilities/wordpress/wp-popup-listing.yaml
+  - vulnerabilities/wordpress/wp-plugin-lifterlms.yaml
+  - vulnerabilities/wordpress/wp-xmlrpc-pingback-detection.yaml
+  - vulnerabilities/wordpress/wordpress-emergency-script.yaml
+  - vulnerabilities/wordpress/wp-arforms-listing.yaml
+  - vulnerabilities/wordpress/wordpress-gtranslate-plugin-listing.yaml
+  - vulnerabilities/wordpress/wordpress-redirection-plugin-listing.yaml
+  - vulnerabilities/wordpress/wp-plugin-utlimate-member.yaml
+  - vulnerabilities/wordpress/wp-plugin-1-flashgallery-listing.yaml
+  - vulnerabilities/wordpress/wordpress-installer-log.yaml
+  - vulnerabilities/wordpress/wp-idx-broker-platinum-listing.yaml
+  - vulnerabilities/wordpress/wordpress-bbpress-plugin-listing.yaml
+  - vulnerabilities/generic/oob-param-based-interaction.yaml
+  - vulnerabilities/generic/cache-poisoning.yaml
+  - vulnerabilities/generic/host-header-injection.yaml
+  - vulnerabilities/generic/oob-header-based-interaction.yaml
+  - vulnerabilities/seeyon/zhiyuan-oa-info-leak.yaml
+  - vulnerabilities/other/openvpn-hhi.yaml
+  - vulnerabilities/other/dlink-850L-info-leak.yaml
+  - vulnerabilities/other/caucho-resin-info-disclosure.yaml
+  - vulnerabilities/jenkins/jenkins-asyncpeople.yaml
+  - vulnerabilities/magento/magento-2-exposed-api.yaml
+  - misconfiguration/xss-deprecated-header.yaml
+  - misconfiguration/graphql/graphql-alias-batching.yaml
+  - misconfiguration/http-missing-security-headers.yaml
+  - misconfiguration/unauthenticated-varnish-cache-purge.yaml
+  - misconfiguration/front-page-misconfig.yaml
+  - misconfiguration/iis-internal-ip-disclosure.yaml
+  - misconfiguration/salesforce-aura.yaml
+  - misconfiguration/unauthenticated-popup-upload.yaml
+  - misconfiguration/php-fpm-status.yaml
+  - misconfiguration/wamp-xdebug-detect.yaml
+  - misconfiguration/drupal/drupal-user-enum-redirect.yaml
+  - misconfiguration/drupal/drupal-user-enum-ajax.yaml
+  - misconfiguration/application-yaml.yaml
+  - misconfiguration/alibaba-mongoshake-unauth.yaml
+  - misconfiguration/aspx-debug-mode.yaml
+  - misconfiguration/exposed-service-now.yaml
+  - misconfiguration/zabbix-error.yaml
+  - misconfiguration/cx-cloud-upload-detect.yaml
+  - misconfiguration/springboot/springboot-info.yaml
+  - misconfiguration/springboot/springboot-health.yaml
+  - misconfiguration/aws-redirect.yaml
+  - misconfiguration/tomcat-scripts.yaml
+  - misconfiguration/cgi-test-page.yaml
+  - misconfiguration/gitlab/gitlab-public-snippets.yaml
+  - misconfiguration/gitlab/gitlab-public-signup.yaml
+  - misconfiguration/gitlab/gitlab-user-enum.yaml
+  - misconfiguration/gitlab/gitlab-public-repos.yaml
+  - misconfiguration/cloudflare-image-ssrf.yaml
+  - misconfiguration/adobe/adobe-connect-version.yaml
+  - misconfiguration/httponly-cookie-detect.yaml
+  - misconfiguration/sonarqube-public-projects.yaml
+  - miscellaneous/trace-method.yaml
+  - miscellaneous/options-method.yaml
+  - miscellaneous/apple-app-site-association.yaml
+  - miscellaneous/clientaccesspolicy.yaml
+  - miscellaneous/security-txt.yaml
+  - miscellaneous/old-copyright.yaml
+  - miscellaneous/robots-txt.yaml
+  - miscellaneous/robots-txt-endpoint.yaml
+  - misconfiguration/httponly-cookie-detect.yaml
+  - misconfiguration/httponly-cookie-detect.yaml
+  - exposures/configs/debug-vars.yaml
+  - exposures/tokens/generic/general-tokens.yaml
+  - exposures/files/crossdomain-xml.yaml
+  - exposures/files/ds-store-file.yaml
+  - exposures/tokens/generic/credentials-disclosure.yaml
+  - exposures/tokens/google/google-client-id.yaml
+  - exposures/configs/keycloak-openid-config.yaml
+  - exposures/configs/azure-domain-tenant.yaml
+  - exposures/tokens/google/google-api-key.yaml
+  - miscellaneous/addeventlistener-detect.yaml
+  - miscellaneous/email-extractor.yaml
+  - technologies/metatag-cms.yaml
+  - technologies/wordpress-detect.yaml
+  - technologies/wordpress/plugins/wp-pagenavi.yaml
+  - technologies/wordpress/plugins/redirection.yaml
+  - http/technologies/waf-detect.yaml
+  - http/misconfiguration/http-missing-security-headers.yaml
+  - http/misconfiguration/httponly-cookie-detect.yaml
+  - http/exposures/backups/zip-backup-files.yaml
+  - cves/2017/CVE-2017-5487.yaml
+  - cves/2014/CVE-2014-8682.yaml

@@ -1,0 +1,3 @@
+flags:
+- subdomain-enum
+- web-basic

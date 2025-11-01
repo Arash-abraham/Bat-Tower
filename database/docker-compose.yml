@@ -1,0 +1,11 @@
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - battower-data:/data/db  # تغییر این خط
+
+volumes:
+  battower-data:  # این خط صحیح است

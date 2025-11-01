@@ -1,0 +1,14 @@
+{
+    "program_name": "Lenovo Responsible Disclosure",
+    "scope": [
+        "motorola.com.br",
+        "motorola.com.cn",
+        "motorola.com",
+        "lenovo.com.cn",
+        "lenovo.com",
+        "lenovomm.com"
+    ],
+    "ooscope": [
+    ],
+    "url": "https://bugcrowd.com/engagements/lenovoresponsibledisclosure"
+}

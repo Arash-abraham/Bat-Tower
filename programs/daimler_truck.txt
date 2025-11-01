@@ -1,0 +1,19 @@
+{
+    "program_name": "Daimler Truck",
+    "scope": [
+        "bharatbenz.com",
+        "daimlertruck.com",
+        "freightliner.com",
+        "mercedes-benz-trucks.com",
+        "setra.de",
+        "westernstar.com",
+        "detroitconnect.com",
+        "evobus.com",
+        "exceleratorparts.com",
+        "fleetboard.com",
+        "fleetboard.de",
+        "omniplus.com"
+    ],
+    "ooscope": [
+    ]
+}
