@@ -15,8 +15,8 @@ def current_time():
 
 def send_discord_message(message):
     def send_telegram_message(message_error):
-        tokn = '5525348770:AAHD6lAHU18twC61ggwSoYM8mMyOhGgXLqc'
-        user = '586205272'
+        tokn = 'TOKEN-BOT'
+        user = 'USER-ID'
         
         url = f"https://api.telegram.org/bot{tokn}/sendMessage?chat_id={user}&text={message_error}"
 
