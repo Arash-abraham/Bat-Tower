@@ -33,15 +33,15 @@ alias bat_enum_all="The path where the file is located. /Bat-Tower/enum/enum_all
       
 5. **Example Command:**
     ```bash
-    bat_ns icollab.info
+    bat_ns google.com
     cat /tmp/tmptzj0axl7
     ```
     - Example output:
       ```
-      hash-att.icollab.info
-      r.icollab.info
-      attacker.icollab.info
-      www.icollab.info
+      hash-att.google.com
+      r.google.com
+      attacker.google.com
+      www.google.com
       .
       .
       .
