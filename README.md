@@ -5,12 +5,12 @@ Welcome to Bat-Tower - Your reconnaissance and monitoring toolkit!
 ## ⚡ Quick Setup
 
 ### Installation
-```1. Download the Bat-Tower files```
-"2. Place the files in your $HOME directory"
-"3. Configure Bat-Tower"
-"   - Open config.py"
-"   - Edit the BAT_DIR variable to the path where the Bat-Tower folder is located"
-"   - To push results to Discord, add the Discord webhook in config.py"
+1. Download the Bat-Tower files
+2. Place the files in your $HOME directory
+3. Configure Bat-Tower
+   - Open config.py
+   - Edit the BAT_DIR variable to the path where the Bat-Tower folder is located
+   - To push results to Discord, add the Discord webhook in `config.py`
 
 "4. Install Requirements:"
 "   pip install -r requirements.txt"
