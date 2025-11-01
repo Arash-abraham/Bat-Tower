@@ -13,32 +13,33 @@ Welcome to Bat-Tower - Your reconnaissance and monitoring toolkit!
    - To push results to Discord, add the Discord webhook in `config.py`
 
 4. Install Requirements:
-```   pip install -r requirements.txt```
+   - ```   pip install -r requirements.txt```
 
 If there is a problem during installation, add the following items to the requirements.txt file:
-flask`
-`psycopg2`
-`psycopg2-binary`
-`mongoengine`
+   - `flask`
+   - `psycopg2`
+   - `psycopg2-binary`
+   - `mongoengine`
 
-`5. Example Command:`
-`bat_ns google.com`
-`cat /tmp/tmptzj0axl7`
+5. Example Command:
+   - `bat_ns google.com`
+   - `cat /tmp/tmptzj0axl7`
 
-`Example output:`
-`hash-att.google.com`
-`r.google.com`
-`attacker.google.com`
-`www.google.com`
-`.`
-`.`
-`.`
+Example output:
+   `hash-att.google.com`
+   `r.google.com`
+   `attacker.google.com`
+   `www.google.com`
+   `.`
+   `.`
+   `.`
 
 ### 🚀 Aliases Configuration
 
-`Add these aliases to your ~/.zshrc:`
-
-`alias bat_sync_programs=`python $HOME/Bat-Tower/programs/sync_programs.py``
-`alias bat_sync_subfinder=`python $HOME/Bat-Tower/enum/subfinder.py``
-`alias bat_sync_crtsh=`python $HOME/Bat-Tower/enum/crtsh.py``
-`alias bat_enum_all=`python $HOME/Bat-Tower/enum/enum_all.py``
+Add these aliases to your `~/.zshrc`:
+```bash
+   alias bat_sync_programs=`python $HOME/Bat-Tower/programs/sync_programs.py`
+   alias bat_sync_subfinder=`python $HOME/Bat-Tower/enum/subfinder.py`
+   alias bat_sync_crtsh=`python $HOME/Bat-Tower/enum/crtsh.py`
+   alias bat_enum_all=`python $HOME/Bat-Tower/enum/enum_all.py`
+```
