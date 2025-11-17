@@ -6,6 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..' , '
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..' )))
 
 from config import Config
+
 from colorama import *
 
 connect(db='bat', host='mongodb://127.0.0.1:27017/bat')
